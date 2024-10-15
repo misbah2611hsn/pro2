@@ -9,7 +9,7 @@ from IPython.display import Audio
 app = Flask(__name__,template_folder='src')
 
 # Preload model and language codes
-palm.configure(api_key="AIzaSyBulnTRagspeZJ-acilW_UQCPn5mb3SAcQ")
+palm.configure(api_key="API")
 mod = palm.GenerativeModel(model_name="gemini-1.5-flash")
 
 language_codes = {
